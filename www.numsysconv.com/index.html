@@ -1,0 +1,54 @@
+<html>
+<head>
+<title>
+number system calculator
+</title>
+<link rel="stylesheet" type="text/css" href="num2.css" />
+</head>
+<body>
+<div class="rectangle">
+<form id="ali">
+<br>
+<br>
+<label for="input" id="inp"><b>INPUT </b>&nbsp; &nbsp; &nbsp;</label>
+<input type="text" id="tex1" >
+<br>
+<br>
+<label for="output" id="oup"><b>OUTPUT</b> &nbsp; </label>
+<input  type="text" id="tex2" readonly="readonly">
+<br>
+<br>
+<table id="con">
+<tr>
+<th class="conv"><input type="button" class="bin"  onclick="bintooct()" value="bin > oct"></th>
+<th class="conv"><input type="button" class="bin" onclick="bintodec()" value="bin > dec"></th>
+<th class="conv"><input type="button"class="bin" onclick="bintohex()"  value="bin > hex"></th>
+</tr>
+<th class="conv"><input type="button" class="bin" onclick="octtobin()" value="oct > bin"></th>
+<th class="conv"><input type="button" class="bin" onclick="octtodec()" value="oct > dec"></th>
+<th class="conv"><input type="button" class="bin" onclick="octtohex()"value="oct > hex"></th>
+<tr>
+<th class="conv"><input type="button"  class="bin" value="dec > bin" onclick="dectobin()"></th>
+<th class="conv"><input type="button" class="bin" onclick="dectooct()"value="dec > oct"></th>
+<th class="conv"><input type="button" class="bin" onclick="dectohex()"value="dec > hex"></th>
+</tr>
+<tr>
+<th class="conv"><input type="button" class="bin" onclick="hextobin()" value="hex > bin"></th>
+<th class="conv"><input type="button"class="bin" onclick="hextooct()" value="hex > oct"></th>
+<th class="conv"><input type="button"class="bin" onclick="hextodec()"  value="hex > dec"></th>
+</tr>
+</table>
+<table id="num2">
+<tr>
+<th><button class="dif"><b>clear</b></button></th>
+<th id="im"><image src="pr1.jpg" class="dif"></th>
+<th><button class="dif"><b>clear</b></button></th>
+</tr>
+</table>
+
+</form>
+</div>
+<script src="calcu.js">
+</script>
+</body>
+</html>

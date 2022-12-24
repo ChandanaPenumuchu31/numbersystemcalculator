@@ -1,0 +1,105 @@
+body{
+background-color: black;
+}
+.rectangle{
+margin-left:0px;
+background-color: #ff5100;
+height:630px;
+width:500px;
+border-style:solid;
+border-color:gray;
+border-width:5px;
+border-radius:50px;
+}
+#inp{
+	margin-top:20px;
+	margin-left:50px;
+	font-size:20px;
+	
+}
+#oup{
+	margin-left:50px;
+	margin-top:200px;
+	font-size:20px;
+}
+input[id=tex1]{
+	width:60%;
+	height:30px;
+	position:center;
+	margin-top:30px;
+	border-color:maroon;
+	border-width:3px;
+}
+input[id=tex2]{
+	width:60%;
+	height:30px;
+	position:center;
+	margin-top:30px;
+	border-color:green;
+	border-width:3px;
+}
+#ali{
+	position:center;
+}
+
+
+button:hover{
+	color:green;
+}
+#con{
+	width:80%;
+	height:100px;
+	margin-left:50px;
+}
+.bin{
+	width:110px;
+	height:60px;
+	font-size:70px;
+	border-radius:25%;
+	font-size:18px;
+	border-style:solid;
+	border-width:2px;
+	border-color:black;
+}
+
+.conv{
+	height:80px;
+}
+th{
+	height:80px;
+}
+.dif{
+	width:90px;
+	height:90px;
+	border-style:solid;
+	border-width:2px;
+	border-color:black;
+	border-radius:100%;
+	background-color:black;
+	color:white;
+	opacity:0.8;
+	font-size:20px;
+}
+#num2{
+	width:80%;
+	height:100px;
+	margin-left:50px;
+}
+#im{
+	width:80px;
+	height:80px;
+	border-color:black;
+	border-radius:100%;
+	background-color:black;
+	color:white;
+	opacity:1;
+	font-size:20px;
+	
+}
+
+
+
+
+
+
+
